@@ -1,0 +1,61 @@
+/* 顺序不可以乱 */
+/* 状态伪类 */
+a:link{
+	/* a 代表超级链接，:link 代表伪类（未被访问状态）*/
+	color: red;
+}
+
+a:visited{
+	/* :visited 代表伪类 （已被访问状态）*/
+	color: green;
+}
+
+a:hover{
+	/* 鼠标悬停*/
+	color: yellow;
+	font-size: 30px;
+}
+
+a:active{
+	color: blue;
+}
+label:hover{
+	color: lightpink;
+}
+input: hover{
+	background-color: red;	
+}
+input:active{
+	background-color: lightskyblue;
+}
+input:focus{
+	background-color: yellow;
+}
+
+/* 结构性伪类展示 */
+p:first-of-type{
+	background-color: red;
+}
+p:nth-child(4){
+	background-color: violet;
+}
+td:nth-child(3){
+	background-color: blueviolet;
+}
+
+/* Pseudo-element 伪元素选择器 */
+
+p::before{
+	content: "终于找到你，";
+}
+p::after{
+	content: " ,依依不舍离开你";
+}
+
+/* id选择器 */
+#name1{
+	font-size: 50px;
+}
+#name2{
+	text-decoration: underline;
+}

@@ -1,0 +1,50 @@
+/*
+  三种样式优先级：
+  行内元素样式设置>内部样式设置>外部样式设置
+*/
+
+p{         
+	background-color: lightpink;
+	font-size: 40px;
+	/* color:red */
+		}
+.p1{
+	font-family: KaiTi;
+		}
+
+.p2{
+	color: rgb(238,130,238);
+	direction: ltr;
+	letter-spacing: 30px;
+	line-height: 40px;
+	text-align: justify;
+	text-shadow: 5px 5px 5px red;
+	text-indent: 2em;
+	text-decoration: underline;
+
+}
+.p3{
+	/*字体样式*/
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: KaiTi;
+}
+.a1{
+	direction: rtl;
+}
+body{
+	background-color: lightskyblue;
+	background-image: url("image/hongmofangde wuhui.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;  /*scroll*/
+	background-position: 70px 50px;
+	/*background: blueviolet url("image/hongmofangde wuhui.jpg") no-repeat fixed 70px 50px;
+	*/
+		}
+
+ul{
+	list-style-type: circle;
+	list-style-position: outside;
+	/*list-style-image: url("image/hongmofangde wuhui.jpg");*/
+}

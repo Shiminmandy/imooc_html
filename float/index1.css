@@ -1,0 +1,22 @@
+#div1{
+	background: yellow;
+	width: 150px;
+	height: 150px;
+	top: 150px;
+	left: 150px;
+	position: absolute;
+	overflow: scroll;
+	outline: dotted;
+	border-bottom: solid;
+}
+#div2{
+	top: 150px;
+	left: 350px;
+	position: absolute;
+	
+}
+input{
+	border: none;
+	border-bottom: solid;
+	outline: none;
+}

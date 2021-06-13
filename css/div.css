@@ -1,0 +1,19 @@
+div{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+}
+
+
+
+/* 类选择器 */
+.div1{
+	background-color: yellow /*!important*/;
+}
+
+/* id选择器 */
+
+#div2{
+	background-color: blue;
+}
+
